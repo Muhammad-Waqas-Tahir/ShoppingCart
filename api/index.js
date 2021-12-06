@@ -9,7 +9,7 @@ app.use(cors());
 app.get("/", (req, res) => {
   res.send("weclome to my api");
 });
-app.get("/product", (req, res) => {
+app.get("/products", (req, res) => {
   res.send(products);
 });
 
